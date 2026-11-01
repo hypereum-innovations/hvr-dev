@@ -1,0 +1,19 @@
+{
+  "name": "@hypereum/hvr-dev",
+  "version": "0.1.0",
+  "description": "Standalone local in-memory SCITT Transparency Service and playground tamper helper for Hivemind Receipts (.hvr) development.",
+  "license": "Apache-2.0",
+  "type": "module",
+  "main": "./index.ts",
+  "types": "./index.ts",
+  "bin": {
+    "hvr-dev": "./cli.ts"
+  },
+  "engines": {
+    "node": ">=20"
+  },
+  "scripts": {
+    "build": "node --test test/smoke.test.mjs",
+    "test": "node --test test/smoke.test.mjs"
+  }
+}
