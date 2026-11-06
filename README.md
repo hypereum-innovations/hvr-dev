@@ -1,3 +1,5 @@
+> **Retired preview, not maintained.**
+
 # `@hypereum/hvr-dev` — Local In-Memory SCITT Transparency Service
 
 SPDX-License-Identifier: Apache-2.0
